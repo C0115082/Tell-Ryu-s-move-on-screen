@@ -1,4 +1,4 @@
-
+ 
 
 # Tell-Ryu-s-move-on-screen
 ストリートファイターVでポーズ認識を使い、リュウの技を判断する人工知能
@@ -30,5 +30,5 @@ Tell-Ryu-s-move-on-screen
 
 # Test
 認識したい画像を用意し以下のように実行  
-    `python ungleGetter.py 画像のパス`  
+`python ungleGetter.py 画像のパス`  
 これにより用意した画像の比較用要素が取得できたので以下のように比較
