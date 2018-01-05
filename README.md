@@ -1,9 +1,9 @@
- 
+
 
 # Tell-Ryu-s-move-on-screen
 ストリートファイターVでポーズ認識を使い、リュウの技を判断する人工知能
 
-#Requirements
+# Requirements
 * Python 3.0+
 * Chainer 2.0+
 * NumPy
