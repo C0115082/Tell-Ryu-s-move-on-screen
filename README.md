@@ -21,7 +21,7 @@ Tell-Ryu-s-move-on-screen
   |  
   |--Chainer_Realtime_Multi-Person_Pose_Estimation  
   |--move-ungle-dates  
-  |--pose-detecter.py  
+  |--pose-detecterKai.py  
   |--ungleGetter.py  
 のようにファイルを配置
 
@@ -30,5 +30,9 @@ Tell-Ryu-s-move-on-screen
 
 # Test
 認識したい画像を用意し以下のように実行  
-`python ungleGetter.py 画像のパス`  
-これにより用意した画像の比較用要素が取得できたので以下のように比較
+`python ungleGetter.py sample.jpg`  
+実行結果がsmall kickとなっていれば成功。
+
+#　Condition
+当プログラムで使用できる対象は題目通りストリートファイターVにおけるリュウの通常技18種類のみであり、使用できる画像は映っている人物がリュウのみのばあいである。
+ただしRyuMoveAngles.csvのような技の角度データを作成し、Chainer_Realtime_Multi-Person_Pose_Estimationが認識可能なものであればどんなものにも応用は可能である。
