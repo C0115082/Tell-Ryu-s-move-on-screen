@@ -25,7 +25,7 @@ Tell-Ryu-s-move-on-screen
   |--ungleGetter.py  
 のようにファイルを配置
 
-次に**pose-detecter.py**をChainer_Realtime_Multi-Person_Pose_Estimation内にコピー、上書き。
+次に**pose-detecterKai.py**をChainer_Realtime_Multi-Person_Pose_Estimation内にコピー。
 これで下準備は完了です。
 
 # Test
