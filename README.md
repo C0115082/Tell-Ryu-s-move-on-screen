@@ -19,10 +19,10 @@
   
 Tell-Ryu-s-move-on-screen  
   |  
-  |--Chainer_Realtime_Multi-Person_Pose_Estimation  
-  |--move-ungle-dates  
+  |--Chainer_Realtime_Multi-Person_Pose_Estimation   
   |--pose-detecterKai.py  
-  |--ungleGetter.py  
+  |--moveNameGetter.py  
+  |--その他データ
 のようにファイルを配置
 
 次に**pose-detecterKai.py**をChainer_Realtime_Multi-Person_Pose_Estimation内にコピー。
